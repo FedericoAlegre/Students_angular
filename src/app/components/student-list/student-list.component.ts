@@ -49,7 +49,7 @@ export class StudentListComponent implements OnInit {
     newStudent.email = this.email
     newStudent.cohort = 0
     newStudent.status = 'activo'
-    newStudent.gender = 'masculino'
+    newStudent.gender = 'masculin'
     newStudent.adrees = 'abc123'
     newStudent.phone = '000'
     this.studentService.save(newStudent).subscribe(()=>{
